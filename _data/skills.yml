@@ -1,0 +1,84 @@
+- title: Backend
+  id: backend
+  items:
+    - title: PHP
+      icon: php.svg
+    - title: Laravel
+      icon: laravel.svg
+    - title: Lumen
+      icon: lumen.svg
+    - title: Zend Framework
+      icon: zend-framework.svg
+    - title: MySQL
+      icon: mysql.svg
+
+    - title: Java
+      icon: java.svg
+    - title: Spring
+      icon: spring.svg
+    - title: Hibernate
+      icon: hibernate.svg
+    - title: Oracle DB
+      icon: oracle.svg
+
+- title: Frontend
+  id: frontend
+  items:
+    - title: HTML
+      icon: html-5.svg
+    - title: CSS
+      icon: css-3.svg
+    - title: JavaScript
+      icon: javascript.svg
+    - title: TypeScript
+      icon: typescript-icon.svg
+
+    - title: Foundation
+      icon: foundation.svg
+    - title: Bootstrap
+      icon: bootstrap.svg
+
+    - title: Angular
+      icon: angular-icon.svg
+    - title: jQuery
+      icon: jquery.svg
+    - title: AngularJS
+      icon: angular.svg
+    - title: Materialize.CSS
+      icon: materializecss.svg
+
+- title: Tools
+  id: tools
+  items:
+    - title: Git
+      icon: git.svg
+
+    - title: NPM
+      icon: npm.svg
+    - title: Yarn
+      icon: yarn.svg
+
+    - title: Bash
+      icon: bash.svg
+    - title: AWS
+      icon: aws.svg
+
+    - title: Composer
+      icon: composer.svg
+    - title: Maven
+      icon: maven.png
+    - title: ng CLI
+      icon: ngcli.png
+
+    - title: Gulp
+      icon: gulp.svg
+    - title: Webpack
+      icon: webpack.svg
+
+- title: Mobile
+  id: mobile
+  items:
+    - title: Ionic
+      icon: ionic.svg
+    - title: Android
+      icon: android-icon.svg
