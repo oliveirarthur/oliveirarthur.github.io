@@ -25,6 +25,8 @@ sass:
 
 contact-form:
   url: https://docs.google.com/forms/d/13o6WhM3MTzvuc39_syW-TVMn-3o3lY-fRu344b0EiXs
+issue-form:
+  url: https://github.com/oliveirarthur/oliveirarthur.github.io/issues/new
 
 # Build settings
 markdown: kramdown
