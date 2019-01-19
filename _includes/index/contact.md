@@ -3,52 +3,44 @@
   <div class="col-xs-12 col-lg-6 py-3 text-center">
     <div class="card my-5">
       <div class="card-header text-center">
-        <h5>Contato</h5>
+        Contato
       </div>
       <form class="contact mb-0" action="{{ site.contact-form.url }}/formResponse" method="post" target="_blank">
         <div class="card-body">
           <div class="form-group">
-            <label for="name">Nome *</label>
             <input
             name="entry.1242810783"
             type="text"
             class="form-control"
             id="name"
-            placeholder="Insira seu nome"
+            placeholder="Nome *"
             required>
           </div>
           <div class="form-group">
-            <label for="email">Email *</label>
             <input
             name="entry.2111747652"
             type="email"
             class="form-control"
             id="email"
-            placeholder="Qual seu email?"
+            placeholder="Email *"
             required>
           </div>
           <div class="form-group">
-            <label for="phone">Telefone</label>
             <input
             name="entry.562096638"
             type="text"
             class="form-control"
             id="phone"
-            placeholder="Telefone para contato"
+            placeholder="Telefone (Com DDD)"
             aria-describedby="phone-help">
-            <small
-            id="phone-help"
-            class="form-text text-muted">Opcional! E se preferir, insira seu WhatsApp. Ah, e não se esqueça de inserir o DDD!</small>
           </div>
-          <hr>
           <div class="form-group">
-            <label for="message">Mensagem *</label>
             <textarea
             name="entry.1349482598"
             class="form-control"
             id="message"
             rows="3"
-            placeholder="Mensagem"></textarea>
+            placeholder="Mensagem *"></textarea>
           </div>
         </div>
         <div class="card-footer">
@@ -61,7 +53,7 @@
   <div class="col-xs-12 col-lg-6 py-3 text-center">
     <div class="card my-5">
       <div class="card-header text-center">
-        <h5>Encontre-me nas redes sociais!</h5>
+        Encontre-me nas redes sociais!
       </div>
       <div class="card-body text-center">
         {% for socialNetwork in .site.data.social-networks %}
