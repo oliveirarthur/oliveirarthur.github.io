@@ -7,10 +7,17 @@
       icon: laravel.svg
     - title: Lumen
       icon: lumen.svg
-    - title: Zend Framework
-      icon: zend-framework.svg
     - title: MySQL
       icon: mysql.svg
+
+    - title: Node.JS
+      icon: nodejs-icon.svg
+    - title: Express JS
+      icon: express.svg
+    - title: Handlebars
+      icon: handlebars.svg
+    - title: Firebase
+      icon: firebase.svg
 
     - title: Java
       icon: java.svg
@@ -30,22 +37,28 @@
       icon: css-3.svg
     - title: JavaScript
       icon: javascript.svg
+
     - title: TypeScript
       icon: typescript-icon.svg
+    - title: Sass
+      icon: sass.svg
 
-    - title: Foundation
-      icon: foundation.svg
     - title: Bootstrap
       icon: bootstrap.svg
-
-    - title: Angular
-      icon: angular-icon.svg
-    - title: jQuery
-      icon: jquery.svg
-    - title: AngularJS
-      icon: angular.svg
+    - title: Foundation
+      icon: foundation.svg
     - title: Materialize.CSS
       icon: materializecss.svg
+
+    - title: Font Awesome
+      icon: font-awesome.svg
+
+    - title: Angular 2+
+      icon: angular-icon.svg
+    - title: AngularJS
+      icon: angular.svg
+    - title: jQuery
+      icon: jquery.svg
 
 - title: Tools
   id: tools
@@ -57,19 +70,35 @@
       icon: npm.svg
     - title: Yarn
       icon: yarn.svg
-
-    - title: Bash
-      icon: bash.svg
-    - title: AWS
-      icon: aws.svg
-
     - title: Composer
       icon: composer.svg
     - title: Maven
       icon: maven.png
+
+    - title: Bash
+      icon: bash.svg
+    - title: AWS
+      icon: aws_1.svg
     - title: ng CLI
       icon: ngcli.png
+    - title: Docker
+      icon: docker.svg
+    - title: Serverless
+      icon: serverless.svg
 
+    - title: Slack
+      icon: slack.svg
+    - title: Emmet
+      icon: emmet.svg
+    - title: Json
+      icon: json.svg
+    - title: Markdown
+      icon: markdown.svg
+    - title: Swagger
+      icon: swagger.svg
+
+    - title: Jekyll
+      icon: jekyll.svg
     - title: Gulp
       icon: gulp.svg
     - title: Webpack
