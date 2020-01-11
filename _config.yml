@@ -21,6 +21,9 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://oliveirarthur.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 sass:
+  load_paths:
+    - _sass
+    - node_modules
   style: compressed
 
 contact-form:
@@ -31,8 +34,8 @@ issue-form:
 # Build settings
 markdown: kramdown
 # theme: minima
-plugins:
-  - jekyll-feed
+# plugins:
+  # - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
