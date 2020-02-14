@@ -53,6 +53,8 @@
     - title: Font Awesome
       icon: font-awesome.svg
 
+    - title: React
+      icon: react.svg
     - title: Angular 2+
       icon: angular-icon.svg
     - title: AngularJS
@@ -107,6 +109,8 @@
 - title: Mobile
   id: mobile
   items:
+    - title: React Native
+      icon: react.svg
     - title: Ionic
       icon: ionic.svg
     - title: Android
