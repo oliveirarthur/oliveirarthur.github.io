@@ -10,14 +10,18 @@
             <div class="card-header">{{ skill.title }}</div>
             <div class="card-body">
               {% for item in skill.items %}
-                <div class="row align-items-center py-2">
-                  <div class="col-3 col-md-4 col-lg-4 col-xl-3">
-                    <img src="assets/img/skills/{{ skill.id }}/{{ item.icon }}"
-                      class="img-fluid"
-                      alt="{{ item.title }} logo">
-                  </div>
-                  <div class="col text-truncate">
-                    {{ item.title }}
+                <div class="card mb-3 item" title="{{ item.title }}">
+                  <div class="row align-items-center justify-content-around no-gutters">
+                    <div class="col-4">
+                      <img src="assets/img/skills/{{ skill.id }}/{{ item.icon }}"
+                        class="img-fluid logo p-1"
+                        alt="{{ item.title }} logo">
+                    </div>
+                    <div class="col-auto text-truncate">
+                      <div class="card-body">
+                        <h5 class="card-title m-0 text-truncate">{{ item.title }}</h5>
+                      </div>
+                    </div>
                   </div>
                 </div>
               {% endfor %}
