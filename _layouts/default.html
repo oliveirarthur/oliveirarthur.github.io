@@ -10,6 +10,11 @@
 </head>
 <body>
   <div class="container-fluid">
+
+    {% for style in page.style %}
+      <link rel="stylesheet" href="assets/css/{{ style }}.css">
+    {% endfor %}
+
     {{ content }}
   </div>
 </body>
