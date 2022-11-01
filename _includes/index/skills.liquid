@@ -5,25 +5,32 @@
 
     <div class="row">
       {% for skillCategory in site.data.skills %}
-        <div class="col-sm-6 col-md-3 pb-3">
-          <div class="card">
-            <div class="card-header">{{ skillCategory.title }}</div>
-              {% for skill in skillCategory.items %}
-                <div class="card skill rounded-0 border-top-0" title="{{ skill.title }}">
-                  <div class="row align-items-center justify-content-around no-gutters">
-                    <div class="col-4 py-1 logo">
-                      <img src="assets/img/skills/{{ skillCategory.id }}/{{ skill.icon }}"
-                        class="img-fluid p-1"
-                        alt="{{ skill.title }} logo">
-                    </div>
-                    <div class="col-auto text-truncate">
-                      <div class="card-body">
-                        <h5 class="card-title m-0 text-truncate">{{ skill.title }}</h5>
+        <div class="col-sm-6 col-lg-3 pb-3">
+          <div class="card bg-transparent">
+            <div class="card-header bg-light position-sticky">
+              {{ skillCategory.title }}
+            </div>
+            <div class="card-body">
+              <div class="row justify-content-around align-items-center">
+                {% for skill in skillCategory.items %}
+                  <div class="col-auto py-2 skill">
+                    <div class="card border-0 shadow-sm">
+                      <div class="card-body logo">
+                        <img
+                          src="assets/img/skills/{{ skillCategory.id }}/{{ skill.icon }}"
+                          class="img-fluid"
+                          alt="{{ skill.title }} logo">
+                      </div>
+                      <div class="card-footer bg-transparent py-1">
+                        <small class="text-truncate">
+                          {{ skill.title }}
+                        </small>
                       </div>
                     </div>
                   </div>
-                </div>
-              {% endfor %}
+                {% endfor %}
+              </div>
+            </div>
           </div>
         </div>
       {% endfor %}
